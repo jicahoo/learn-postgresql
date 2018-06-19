@@ -4,7 +4,7 @@
 
 ## 事物隔离级别
 * Read uncommited  
-  * 我看见了将来可能不存在的事物；
+  * 我看见了将来可能不存在的事物；正在孕育的事物，但后来失败了。
 * Read commited    
   * 我看得见同一个事物的其他人对它的改变；
 * Repeatable read  
