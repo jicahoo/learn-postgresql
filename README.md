@@ -14,6 +14,6 @@
 ## MVCC 的好处
  * 读不阻塞写, 写不阻塞读, 并发度提高。如果不用多版本，只有一份数据，读写会有冲突，会互相阻塞。
  * 写写肯定要阻塞，写同一份数据，要有锁。和乐观锁，有所区别。
- * Postgres的事物编号的wraparound问题？如何解决:
-  * https://www.slideshare.net/pgdayasia/introduction-to-vacuum-freezing-and-xid 
-  * https://www.cybertec-postgresql.com/en/autovacuum-wraparound-protection-in-postgresql/#
+ * Postgres的事务编号的wraparound问题？如何解决:
+   * https://www.slideshare.net/pgdayasia/introduction-to-vacuum-freezing-and-xid 
+   * https://www.cybertec-postgresql.com/en/autovacuum-wraparound-protection-in-postgresql/#
